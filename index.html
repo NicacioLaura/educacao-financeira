@@ -32,6 +32,7 @@
         <section class="hero">
 
             <div>
+
                 <h2>Organize sua vida financeira</h2>
 
                 <p>
@@ -39,6 +40,7 @@
                 </p>
 
                 <button>Começar Agora</button>
+
             </div>
 
         </section>
@@ -50,25 +52,27 @@
             <h3>O que é educação financeira?</h3>
 
             <p>
-                Educação financeira é o processo de aprender a administrar o dinheiro de forma consciente e inteligente.
+                Educação financeira é o processo de aprender a administrar o dinheiro de forma consciente, evitando dívidas e criando hábitos financeiros saudáveis.
             </p>
 
             <h3>Como manter o controle financeiro?</h3>
 
             <ul>
-                <li>Anote todos os gastos</li>
+                <li>Anote seus gastos diariamente</li>
                 <li>Defina metas financeiras</li>
                 <li>Evite compras impulsivas</li>
                 <li>Tenha uma reserva de emergência</li>
+                <li>Planeje seus gastos mensais</li>
             </ul>
 
             <h3>Bons investimentos para iniciantes</h3>
 
             <ul>
-                <li>CDI</li>
                 <li>Tesouro Direto</li>
                 <li>CDB</li>
+                <li>CDI</li>
                 <li>Fundos de investimento</li>
+                <li>Poupança para reserva emergencial</li>
             </ul>
 
         </section>
@@ -77,13 +81,16 @@
 
             <h2>Controle de Gastos</h2>
 
-            <input type="number" id="valor" placeholder="Digite um gasto">
+            <input 
+            type="number" 
+            id="valor" 
+            placeholder="Digite um gasto">
 
             <button onclick="adicionarGasto()">
                 Adicionar Gasto
             </button>
 
-            <h3>Total:</h3>
+            <h3>Total gasto:</h3>
 
             <p id="total">R$ 0.00</p>
 
@@ -93,14 +100,23 @@
 
             <h2>Calculadora Financeira</h2>
 
-            <input type="number" id="investimento" placeholder="Valor investido">
+            <input 
+            type="number" 
+            id="investimento" 
+            placeholder="Valor investido">
 
-            <input type="number" id="juros" placeholder="Taxa de juros (%)">
+            <input 
+            type="number" 
+            id="juros" 
+            placeholder="Taxa de juros (%)">
 
-            <input type="number" id="tempo" placeholder="Tempo em meses">
+            <input 
+            type="number" 
+            id="tempo" 
+            placeholder="Tempo em meses">
 
             <button onclick="calcularInvestimento()">
-                Calcular
+                Calcular Investimento
             </button>
 
             <p id="resultado"></p>
@@ -112,16 +128,16 @@
             <h2>Planilha Financeira</h2>
 
             <p>
-                Faça o download da planilha financeira para acompanhar seus gastos e investimentos.
+                Faça o download da planilha financeira para acompanhar receitas, despesas e investimentos.
             </p>
 
             <a href="https://docs.google.com/spreadsheets/d/1wAZ4TyqQTr9MUPnr01oZKbxB5nZnlbuJu-YhXndCIQg/export?format=xlsx">
+
                 <button>
                     📥 Baixar Planilha
                 </button>
-            </a>
 
-</form>
+            </a>
 
         </section>
 
