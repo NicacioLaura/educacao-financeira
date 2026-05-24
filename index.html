@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FinanControl</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>FinanControl</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#educacao">Educação Financeira</a></li>
+                <li><a href="#controle">Controle</a></li>
+                <li><a href="#calculadora">Calculadora</a></li>
+                <li><a href="#planilha">Planilha</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div>
+                <h2>Organize sua vida financeira</h2>
+
+                <p>
+                    Aprenda a controlar gastos, investir melhor e criar hábitos financeiros saudáveis.
+                </p>
+
+                <button>Começar Agora</button>
+            </div>
+
+        </section>
+
+        <section id="educacao" class="card">
+
+            <h2>Educação Financeira</h2>
+
+            <h3>O que é educação financeira?</h3>
+
+            <p>
+                Educação financeira é o processo de aprender a administrar o dinheiro de forma consciente e inteligente.
+            </p>
+
+            <h3>Como manter o controle financeiro?</h3>
+
+            <ul>
+                <li>Anote todos os gastos</li>
+                <li>Defina metas financeiras</li>
+                <li>Evite compras impulsivas</li>
+                <li>Tenha uma reserva de emergência</li>
+            </ul>
+
+            <h3>Bons investimentos para iniciantes</h3>
+
+            <ul>
+                <li>CDI</li>
+                <li>Tesouro Direto</li>
+                <li>CDB</li>
+                <li>Fundos de investimento</li>
+            </ul>
+
+        </section>
+
+        <section id="controle" class="card">
+
+            <h2>Controle de Gastos</h2>
+
+            <input type="number" id="valor" placeholder="Digite um gasto">
+
+            <button onclick="adicionarGasto()">
+                Adicionar Gasto
+            </button>
+
+            <h3>Total:</h3>
+
+            <p id="total">R$ 0.00</p>
+
+        </section>
+
+        <section id="calculadora" class="card">
+
+            <h2>Calculadora Financeira</h2>
+
+            <input type="number" id="investimento" placeholder="Valor investido">
+
+            <input type="number" id="juros" placeholder="Taxa de juros (%)">
+
+            <input type="number" id="tempo" placeholder="Tempo em meses">
+
+            <button onclick="calcularInvestimento()">
+                Calcular
+            </button>
+
+            <p id="resultado"></p>
+
+        </section>
+
+        <section id="planilha" class="card">
+
+            <h2>Planilha Financeira</h2>
+
+            <a href="https://docs.google.com/spreadsheets/d/1wAZ4TyqQTr9MUPnr01oZKbxB5nZnlbuJu-YhXndCIQg/export?format=xlsx">
+                <button>📥 Baixar Planilha</button>
+            </a>
+
+        </section>
+
+        <section id="login" class="card">
+
+            <h2>Login</h2>
+
+            <input type="email" placeholder="Digite seu email">
+
+            <input type="password" placeholder="Digite sua senha">
+
+            <button>
+                Entrar
+            </button>
+
+        </section>
+
+        <section id="contato" class="card">
+
+            <h2>Contato</h2>
+
+            <form>
+
+                <input type="text" placeholder="Seu nome">
+
+                <input type="email" placeholder="Seu email">
+
+                <textarea placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
